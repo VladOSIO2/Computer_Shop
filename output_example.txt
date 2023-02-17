@@ -1,0 +1,67 @@
+Welcome to our shop! Here we have the next computers:
+
+Position #1, named: intelDesktop
+	Processor : Processor(super=Component(name=Intel Core I5-10400, price=15000), socket=LGA1200, cores=6)
+	Computer case : ComputerCase(super=Component(name=case, price=1500), color=black)
+	Motherboard : Motherboard(super=Component(name=Intel desktop motherboard, price=8000), socket=LGA1200, ramSlotCount=4)
+	RAM : [RamStick(super=Component(name=desktop DDR4 RAM, price=1950), capacity=4096), RamStick(super=Component(name=desktop DDR4 RAM, price=1950), capacity=4096)]
+Total price of this product: 28400
+
+Position #2, named: amdDesktop
+	Processor : Processor(super=Component(name=AMD Ryzen 5 3600, price=10000), socket=AM4, cores=6)
+	Computer case : ComputerCase(super=Component(name=case, price=1500), color=black)
+	Motherboard : Motherboard(super=Component(name=AMD desktop motherboard, price=7500), socket=AM4, ramSlotCount=4)
+	RAM : [RamStick(super=Component(name=desktop DDR4 RAM, price=1950), capacity=4096), RamStick(super=Component(name=desktop DDR4 RAM, price=1950), capacity=4096)]
+Total price of this product: 22900
+
+Position #3, named: intelLaptop
+	Processor : Processor(super=Component(name=Intel Core I5-10400, price=15000), socket=LGA1200, cores=6)
+	Motherboard : Motherboard(super=Component(name=Intel laptop motherboard, price=8500), socket=LGA1200, ramSlotCount=2)
+	Battery : Battery(super=Component(name=universal laptop battery, price=5000), capacity=4000)
+	RAM : [RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192), RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192)]
+Total price of this product: 36500
+
+Position #4, named: amdLaptop
+	Processor : Processor(super=Component(name=AMD Ryzen 5 3600, price=10000), socket=AM4, cores=6)
+	Motherboard : Motherboard(super=Component(name=AMD laptop motherboard, price=9000), socket=AM4, ramSlotCount=2)
+	Battery : Battery(super=Component(name=universal laptop battery, price=5000), capacity=4000)
+	RAM : [RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192), RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192)]
+Total price of this product: 32000
+
+Would you like to buy any of them?
+Enter the position number you'd like to buy, or 0 to exit
+7
+Invalid position number! Enter the valid one, or 0 to exit.
+-1
+Invalid position number! Enter the valid one, or 0 to exit.
+ThisIsAPositionNumberTrustMe
+You need to enter an integer.
+Invalid position number! Enter the valid one, or 0 to exit.
+1
+Good for you! Buying computer #1, named: intelDesktop
+
+Computers left in stock:
+
+Position #1, named: amdDesktop
+	Processor : Processor(super=Component(name=AMD Ryzen 5 3600, price=10000), socket=AM4, cores=6)
+	Computer case : ComputerCase(super=Component(name=case, price=1500), color=black)
+	Motherboard : Motherboard(super=Component(name=AMD desktop motherboard, price=7500), socket=AM4, ramSlotCount=4)
+	RAM : [RamStick(super=Component(name=desktop DDR4 RAM, price=1950), capacity=4096), RamStick(super=Component(name=desktop DDR4 RAM, price=1950), capacity=4096)]
+Total price of this product: 22900
+
+Position #2, named: intelLaptop
+	Processor : Processor(super=Component(name=Intel Core I5-10400, price=15000), socket=LGA1200, cores=6)
+	Motherboard : Motherboard(super=Component(name=Intel laptop motherboard, price=8500), socket=LGA1200, ramSlotCount=2)
+	Battery : Battery(super=Component(name=universal laptop battery, price=5000), capacity=4000)
+	RAM : [RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192), RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192)]
+Total price of this product: 36500
+
+Position #3, named: amdLaptop
+	Processor : Processor(super=Component(name=AMD Ryzen 5 3600, price=10000), socket=AM4, cores=6)
+	Motherboard : Motherboard(super=Component(name=AMD laptop motherboard, price=9000), socket=AM4, ramSlotCount=2)
+	Battery : Battery(super=Component(name=universal laptop battery, price=5000), capacity=4000)
+	RAM : [RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192), RamStick(super=Component(name=laptop DDR4 RAM, price=4000), capacity=8192)]
+Total price of this product: 32000
+
+
+Process finished with exit code 0
